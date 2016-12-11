@@ -11,6 +11,7 @@ H5PEditor.widgets.interactiveVideo = H5PEditor.InteractiveVideo = (function ($) 
    * @param {function} setValue
    */
   function InteractiveVideoEditor(parent, field, params, setValue) {
+    console.log('INTERACTIVEVIDEOEDITOR');
     var that = this;
 
     this.parent = parent;
@@ -567,7 +568,7 @@ H5PEditor.widgets.interactiveVideo = H5PEditor.InteractiveVideo = (function ($) 
     }
 
     // Always show link as poster
-    if (type === 'H5P.Link' || type === 'H5P.GoToQuestion' || type === 'H5P.IVHotspot') {
+    if (type === 'H5P.Link' || type === 'H5P.GoToQuestion' || type === 'H5P.IVHotspot' || type === 'H5P.IVGoTo') {
       var field = findField('displayType', interactionFields);
       // Must set default to false and hide
       field.default = 'poster';

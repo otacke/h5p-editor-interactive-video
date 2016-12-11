@@ -108,6 +108,10 @@
 .h5p-questionnaire-interaction-icon:before {
   content: "\e901";
 }
+.h5p-interactive-video-dragnbar .h5p-dragnbar-ivgoto-button:before,
+.h5p-ivgoto-interaction-icon:before {
+  content: "\f124";
+}
 
 /* H5P specific fonts: */
 .h5p-interactive-video-dragnbar .h5p-dragnbar-dragquestion-button:before,
@@ -131,7 +135,8 @@
 .h5p-multichoice-interaction-icon:before,
 .h5p-summary-interaction-icon:before,
 .h5p-ivhotspot-interaction-icon:before,
-.h5p-questionnaire-interaction-icon:before {
+.h5p-questionnaire-interaction-icon:before,
+.h5p-ivgoto-interaction-icon:before {
   font-family: 'H5PInteractiveVideoEditor';
 }
 
@@ -582,6 +587,7 @@
   color: #555;
   background: #ccc;
 }
-.h5p-poster.h5p-ivhotspot-interaction {
+.h5p-poster.h5p-ivhotspot-interaction,
+.h5p-poster.h5p-ivgoto-interaction {
   overflow: visible;
 }

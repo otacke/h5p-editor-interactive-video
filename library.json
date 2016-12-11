@@ -70,12 +70,12 @@
     {
       "machineName": "H5P.SingleChoiceSet",
       "majorVersion": 1,
-      "minorVersion": 6
+      "minorVersion": 7
     },
     {
       "machineName": "H5P.MultiChoice",
       "majorVersion": 1,
-      "minorVersion": 9
+      "minorVersion": 8
     },
     {
       "machineName": "H5P.TrueFalse",
@@ -90,7 +90,7 @@
     {
       "machineName": "H5P.Summary",
       "majorVersion": 1,
-      "minorVersion": 5
+      "minorVersion": 6
     },
     {
       "machineName": "H5PEditor.Duration",
@@ -156,6 +156,11 @@
       "machineName": "H5P.Questionnaire",
       "majorVersion": 1,
       "minorVersion": 0
+    },
+    {
+      "machineName": "H5P.IVGoTo",
+      "majorVersion": 0,
+      "minorVersion": 1
     }
   ]
 }
